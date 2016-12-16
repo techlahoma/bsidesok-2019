@@ -84,8 +84,8 @@ section
 
 
 header
-  //background: $blue-dark url("../images/header-gradient.png") center bottom repeat-x
-  //background-attachment: fixed
+  background: $blue-dark url("../images/header-gradient.png") center bottom repeat-x
+  background-attachment: fixed
   height: 100%
   color: white
   position: relative
@@ -95,17 +95,17 @@ header
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6)
 
   @media only screen and (max-width: $break-small)
-    //background-size: 1px 500px
-    //background-attachment: scroll
+    background-size: 1px 500px
+    background-attachment: scroll
   .buildings
-    background: url("../images/header-bg.jpg") bottom center no-repeat
-    //background-attachment: fixed
+    background: url("../images/bsides-night-blue.png") bottom center no-repeat
+    background-attachment: fixed
     background-size: cover
     height: 100%
     overflow: auto
     @media only screen and (max-width: $break-small)
-      //background-size: 1100px 500px
-      //background-attachment: scroll
+      background-size: 1100px 500px
+      background-attachment: scroll
   .intro
     position: absolute
     width: 1024px
@@ -138,10 +138,10 @@ header
       top: 0
       margin-top: 10px
   h1
-    text-replace("../images/logo-header.png", 375px, 227px)
+    text-replace("../images/bsides-white.png", 375px, 227px)
     margin-bottom: 20px
     @media all and (-webkit-min-device-pixel-ratio: 1.5)
-      background-image: url("../images/logo-header@2x.png")
+      background-image: url("../images/bsides-white.png")
       background-size: 375px 227px
     @media only screen and (max-width: $break-small)
       width: 188px
@@ -168,11 +168,12 @@ header
       font-size: 15px
       line-height: 15px
   .kapow
-    text-replace("../images/kapow.png", 12px, 18px)
+    text-replace("../images/lock-white.png", 12px, 18px)
     display: inline-block
     margin: 0 10px
     @media all and (-webkit-min-device-pixel-ratio: 1.5)
-      background-image: url("../images/kapow@2x.png")
+      //background-image: url("../images/kapow@2x.png")
+      background-image: url("../images/lock-white.png")
       background-size: 12px 18px
   nav
     font-size: 20px
@@ -781,7 +782,7 @@ footer
 
 .cfp
   a
-    font-family Sanchez,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family Raleway,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
     background-color:$purple-light;
     display:block;
     color:#fff;

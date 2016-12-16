@@ -1,36 +1,26 @@
-# Thunder Plains Developer Conference 2016
-![Thunderplains Banner](./readme/banner_2016.png)
+# BSides OK 2017
 
 
 --------------------------------------------------------------------------------
 
-## :zap: [Thunder Plains 2016](http://thunderplainsconf.com) :zap:
-Our conference is a 2 day 1 track community-run event at the Devon Boathouse in Oklahoma City, OK
+## :zap: [BSidesOK 2016](http://bsidesok.com) :zap:
+Our conference is a 2 day community-run event at the [Glenpool Conference Center](http://www.glenpoolconferencecenter.com/) in Glenpool, OK.
 
 ### :ticket: Tickets
-Tickets shall be on sale after the CFP closes!  
+Tickets will be available after the CFP closes!  
 
 Stay Tuned for announcements.
 
-Type         | About
------------- | -------------------------------------------------
-Lightning    | The first 30, these go fast!
-Thunder      | Through Aug 25
-Stormfront   | Through Nov 3rd
-Cluster      | This is for groups larger than 5, through Nov 3rd
-
 Tickets include food/snacks/non-alcoholic drinks at lunch time snack break and at the optional after party. (After party attendance is completely optional and not required.)
 
-### :sparkling_heart: Help us make Thunder Plains Amazing!
-Interested in Sponsoring Thunder Plains? Check out the [Sponsorship Prospectus](files/ThunderPlainsSponsorshipProspectus2016.pdf). If you have any questions, please feel free to contact us via [email](mailto:info@thunderplainsconf.com) or @ThunderPlains on twitter.
+### :sparkling_heart: Help us make BSidesOK Amazing!
+Interested in Sponsoring BSidesOK? Check out the [Sponsorship Prospectus](files/BSidesOKSponsorshipProspectus2016.pdf). If you have any questions, please feel free to contact us via [email](mailto:bsidesok@gmail.com) or @BSidesOK on twitter.
 
 ### :globe_with_meridians: Location
-Located at the Devon Boathouse in downtown Oklahoma City
+Located at the Glenpool Conference Center in Glenpool, OK (southwest of Tulsa).
 
-![The Devon Boathouse](./readme/boathouse.jpg)
 
-###725 S Lincoln Blvd, Oklahoma City, OK 73129
-![Thunderplains Location](./readme/location.jpg)
+### 12205 S. Yukon Ave.Glenpool, OK 74033
 
 
 ### :love_letter: Code of Conduct
@@ -39,13 +29,11 @@ Everyone deserves to attend a learning, community or professional event with a r
 Our Code of Conduct (anti-harassment policy) is located at [here](http://bit.ly/1GRZDJA)  We require all speakers, sponsors, and attendees to read and agree to its terms.
 
 ### :email: Contact Us!
-[Twitter - @ThunderPlains](https://twitter.com/thunderplains)
+[Twitter - @BSidesOK](https://twitter.com/BSidesOK)
 
-[info@thunderplainsconf.com](mailto:info@thunderplainsconf.com)
+[bsidesok@gmail.com](mailto:bsidesok@gmail.com)
 
 #### :tada: Organizers
+Many thanks to organizers and volunteers: Nathan Sweaney, Nathan Keltner, John Robertson, Carrie Randolph, Aaron Moss, James Lawlz, Devon Greene, and Danny LC
+
 We hope to see you there!
-
-![Thunderplains Organizers](./readme/jesse_amanda_vance.png)
-
-[Jesse Harlin](https://twitter.com/5imian) / [Amanda Harlin](https://twitter.com/amandaharlin) / [Vance Lucas](https://twitter.com/vlucas)

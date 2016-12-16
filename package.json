@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "hexo": "3.2.2",
+    "hexo": "^3.2.2",
     "hexo-clean-css": "0.x.x",
     "hexo-deployer-git": "0.x.x",
     "hexo-front-matter": "0.x.x",
@@ -19,7 +19,7 @@
     "hexo-renderer-markdownjs": "0.x.x",
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "0.3.1",
-    "hexo-server": "0.x.x",
+    "hexo-server": "^0.2.0",
     "hexo-tag-googlemaps": "*"
   },
   "hexo": {

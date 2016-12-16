@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Thunder Plains
-subtitle: Developer Conference
+title: BSidesOK
+subtitle: Security Conference
 description:
-author: Vance Lucas
-email: vance@vancelucas.com
+author: Nathan Sweaney
+email: info@techlahoma.org
 language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://thunderplainsconf.com
+url: http://bsideok.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -93,6 +93,6 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:techlahoma/thunderplains-2016.git
+  repo: git@github.com:techlahoma/bsidesok-2017.git
   branch: gh-pages
   ignore_errors: true
