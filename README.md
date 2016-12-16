@@ -3,6 +3,8 @@
 
 --------------------------------------------------------------------------------
 
+
+
 ## :zap: [BSidesOK 2016](http://bsidesok.com) :zap:
 Our conference is a 2 day community-run event at the [Glenpool Conference Center](http://www.glenpoolconferencecenter.com/) in Glenpool, OK.
 
@@ -37,3 +39,5 @@ Our Code of Conduct (anti-harassment policy) is located at [here](http://bit.ly/
 Many thanks to organizers and volunteers: Nathan Sweaney, Nathan Keltner, John Robertson, Carrie Randolph, Aaron Moss, James Lawlz, Devon Greene, and Danny LC
 
 We hope to see you there!
+
+[B-sides site](http://techlahoma.github.io/bsidesok-2017)
