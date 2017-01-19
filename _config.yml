@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: BSidesOK
+title: BSidesOK 2017
 subtitle: Security Conference
 description:
 author: Nathan Sweaney
-email: info@techlahoma.org
+email: bsidesok@gmail.com
 language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://bsideok.com
+url: http://bsidesok.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags

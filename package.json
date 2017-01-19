@@ -1,5 +1,5 @@
 {
-  "name": "thunderplains-2016",
+  "name": "bsidesok-2017",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -39,14 +39,15 @@
     "url": "https://github.com/techlahoma/thunderplains-hexo.git"
   },
   "keywords": [
-    "thunderplains 2016",
-    "thunderplains",
-    "hexo",
+    "bsides",
+    "bsidesok",
+    "bsidesok 2017",
     "oklahoma",
-    "developer",
+    "security",
+    "information security",
     "conference"
   ],
-  "author": "amanda harlin, jesse harlin, vance lucas",
+  "author": "amanda harlin, jesse harlin, vance lucas, nathan sweaney",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/techlahoma/thunderplains-hexo/issues"
