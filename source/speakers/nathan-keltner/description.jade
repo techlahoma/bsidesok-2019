@@ -1,0 +1,13 @@
+| Offensive and Defense Tokens
+| This talk covers leveraging canaries for offensive and defensive use. There are many forms, but we'll specifically focus on using canarytokens, the open source version of a service provided by Canary Tools. These have many uses, but to name a few that will be covered:
+br
+ul Defense:
+  li "Corporate Payroll -- All Employees -- Q12017.xlsx" or "All-Passwords.xlsx" on a private share or locally on a hard drive.
+  li Canary all your website login pages to be alerted if someone ever clones it for phishing
+  li And if someone _does_ clone your site -- you will also gain metadata on everyone in your organization who clicked the now-known malicious link.... as well as the metadata on the attackers who were debugging the site prior to sending it to your users.
+  li All kinds of other things: MSSQL records, SVN, browsed folders, any type of record that will take a DNS name, EXE's, etc.
+
+ul Offense:
+  li Canary your phishing pages and attachments!
+  li Gain highly useful debugging information to identify where your payload failed. (Get nothing? Email was probably blocked. DNS fired but not HTTP? The file was opened but caught by AV or blocked at the network.)
+  li Utilize webhooks to get live information related to new hits and successful file attachment opening.
