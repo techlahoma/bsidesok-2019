@@ -1,13 +1,10 @@
 | Canary Tokens: Attacks and Defense
-| This talk covers leveraging canaries for offensive and defensive use. There are many forms, but we'll specifically focus on using canarytokens, the open source version of a service provided by Canary Tools. These have many uses, but to name a few that will be covered:
+| Canary tokens can be thought of as web bugs for documents, executables, or even database records and source code repositories -- canaries that fire when a victim or attacker interacts with a tokened resource. This talk discusses techniques to use canaries for offense and defense, detecting interactions with your token when they occur on any system that isn't fully isolated from the internet.
 br
-ul Defense:
-  li "Corporate Payroll -- All Employees -- Q12017.xlsx" or "All-Passwords.xlsx" on a private share or locally on a hard drive.
-  li Canary all your website login pages to be alerted if someone ever clones it for phishing
-  li And if someone _does_ clone your site -- you will also gain metadata on everyone in your organization who clicked the now-known malicious link.... as well as the metadata on the attackers who were debugging the site prior to sending it to your users.
-  li All kinds of other things: MSSQL records, SVN, browsed folders, any type of record that will take a DNS name, EXE's, etc.
-
-ul Offense:
-  li Canary your phishing pages and attachments!
-  li Gain highly useful debugging information to identify where your payload failed. (Get nothing? Email was probably blocked. DNS fired but not HTTP? The file was opened but caught by AV or blocked at the network.)
-  li Utilize webhooks to get live information related to new hits and successful file attachment opening.
+| For defense, these grant visibility into successful attacks in a manner similar to honeypots, but focus on the information attempting to be obtained rather than a network asset. They are particularly interesting for the feedback provided in cloned site phishing attacks and other areas that are usually "dark" to defenders.
+br
+| But tokens are also highly useful for attackers. They've become indispensable in our attacks against live networks, granting valuable debug information on failed exploits, failed and successful phishing attempts, the specific types of network defenses getting in the way, and similar useful information.
+br
+| This talk will cover typical setups, modifications to the open source repos and configs you'll want to make, and fun examples of all of the above.
+br
+| I mean, what attacker wouldn't open the file 'Netsec_passwords_all_Q1_2017.xlsx'?
