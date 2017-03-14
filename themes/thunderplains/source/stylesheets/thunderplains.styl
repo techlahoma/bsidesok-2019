@@ -277,7 +277,234 @@ header
     margin: 0px
     padding: 0px
     line-height: 30px
-            
+
+#other
+  .other-schedule-list
+    @extend .list-simple
+    border: 1px solid $creme
+    background: white
+    text-align: left
+    .other-schedule-time
+      font-size: 12px
+      line-height: 1em
+      padding: 5px 10px
+      text-align: center
+      text-transform: uppercase
+      background: $creme
+      time
+        display: block
+    .other-schedule-slot
+      @extend .clearfix
+
+    .other-schedule-event
+      @extend .clearfix
+      clear: both
+      padding: 10px
+      background: mix(white, $background)
+      text-align: center
+      p
+        font-size: 15px
+        line-height: 1em
+        text-transform: uppercase
+        font-weight: 700
+        color: $green-light
+        margin: 0
+
+    .other-schedule-keynote
+      clear: both
+      padding: 10px
+      background: mix(white, $background)
+      text-align: center
+      border-left: 5px solid $purple-light
+      transition: all $hoverReactSpeed linear
+      &:hover
+          border-left-color: saturate($purple-light, $hoverSaturate)
+          background-color:  desaturate(lighten($purple-light, $hoverBackgroundLighten), $hoverDesaturateBack)
+          .other-schedule-title h3
+            color: saturate(darken($purple-light, $hoverDarkenFont), $hoverSaturateFont)
+            text-shadow: $hoverTextShadow
+      p
+        font-size: 15px
+        line-height: 1em
+        text-transform: uppercase
+        font-weight: 700
+        color: $green-light
+        margin: 0
+        
+
+      .`
+        border: none
+        padding: 0 10px
+
+        .other-schedule-title
+          h3
+            font-size: 15px
+            margin-top: 10px
+          h4
+            font-size: 15px
+
+    .other-schedule-talk
+      cursor: pointer
+      border-left: 5px solid $creme
+      padding: 0px 10px 15px 10px
+      transition: all $hoverReactSpeed ease
+      &.other-schedule-day1
+        border-left-color: $orange
+        &:hover
+        &.hover
+          border-left-color: saturate($orange, $hoverSaturate)
+          background-color:  desaturate(lighten($orange, $hoverBackgroundLighten), $hoverDesaturateBack)
+          .other-schedule-title h3
+            color: saturate(darken($orange, $hoverDarkenFont), $hoverSaturateFont)
+            text-shadow: $hoverTextShadow
+      &.other-schedule-day2
+        border-left-color: $purple-light
+        &:hover
+        &.hover
+          border-left-color: saturate($purple-light, $hoverSaturate)
+          background-color:  desaturate(lighten($purple-light, $hoverBackgroundLighten), $hoverDesaturateBack)
+          .other-schedule-title h3
+            color: saturate(darken($purple-light, $hoverDarkenFont), $hoverSaturateFont)
+            text-shadow: $hoverTextShadow
+      &.no-modal
+        cursor: default
+      img, ul, p, .modal-social, .panel-bio
+        display: none
+    @media only screen and (min-width: $break-medium)
+      .other-schedule-slot
+        .other-schedule-talk
+          float: left
+          width: 30%
+          height: 105px
+      .other-schedule-slot-center
+        float: left
+        position: relative
+        left: 50%
+        .other-float-center
+          float: left
+          position: relative
+          left: -50%
+        
+.other-schedule-talk
+  .other-schedule-title
+    display block
+    float left
+    width 100%
+    h3
+      font-size: 15px
+      color: $purple-dark
+      margin-bottom: 5px
+    h4
+      font-size: 15px
+      color: $green-light
+      font-weight: 300
+      margin-bottom: 7px
+    .speaker-bullet
+      display: none
+
+
+  .nav-tabs
+    //margin-top: -8px;
+  p
+    clear: both
+    margin-top: 10px
+    padding-top: 10px
+    font-size: 18px
+    line-height: 1.35em
+    br
+      content: ''
+      display: block
+      margin: 0.5em
+.modal
+  .modal-social
+    margin: 0.5em, 0
+    font-size: 0.8em
+    line-height: 1.35em
+  img
+    position: absolute
+    z-index: 2
+    top: 0
+    right: 8px
+    width: 100px
+    height: 100px
+    @media screen and (min-width: 480px)
+      width: 150px
+      height: 150px
+    @media screen and (min-width: 540px)
+      width: 175px
+      height: 175px
+    @media screen and (min-width: 720px)
+      width: 200px
+      height: 200px
+
+  .other-schedule-talk
+    position: relative
+    z-index: 1
+    .other-schedule-title
+      min-height: 100px
+      padding-right: 110px
+      h3
+        font-size: 18px
+      h4
+        margin-top: 7px
+        font-size: 14px
+      .speaker-bullet
+        float left
+      .speaker-bullet
+        width: 100%
+        color #666
+        cursor: pointer
+        display: block
+        font-size: 14px
+        .fa
+          cursor: pointer
+          width 26px
+          height: 26px
+          float: left
+          font-size: 26px
+          margin: 7px 7px 7px 0;
+        label
+          cursor: pointer
+          display inline-block
+          line-height 26px
+          margin: 2px
+      &:hover
+        color $purple-dark
+        label
+          color $purple-dark
+        .fa
+          color $purple-dark
+
+      @media screen and (min-width: 480px)
+        min-height: 150px
+        padding-right: 160px
+        h3
+          font-size: 24px
+        h4
+          margin-top: 9px
+          font-size: 18px
+      @media screen and (min-width: 540px)
+        min-height: 175px
+        padding-right: 185px
+        h3
+          font-size: 28px
+        h4
+          margin-top: 11px
+          font-size: 22px
+      @media screen and (min-width: 720px)
+        min-height: 220px
+        padding-right: 210px
+        h3
+          font-size: 34px
+        h4
+          margin-top: 13px
+          font-size: 26px
+    p
+       font-size: 16px
+       text-align: justify;
+
+
+         
 #schedule
 
   .schedule-legend
