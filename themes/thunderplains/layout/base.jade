@@ -6,8 +6,9 @@ html(lang='en')
     include _partial/head
   body(class=bodyclass)
     header
-      //a.sponsor-cta(href="#sponsorship")
-        //| Interested in Sponsoring?
+      a.sponsor-cta(href="#sponsorship")
+        | Interested in Sponsoring?
+      | CFP Coming Soon 
       //a.cfp-cta(href="#cfp")
         //| Our CFP is Open!
       .buildings
@@ -19,10 +20,10 @@ html(lang='en')
               a(href=config.root)
                 = config.title
             h3
-              | Training: Wed-Thur, April 11-12, 2018
-              sup rd
+              | Training: Wed-Thur, April 11-12
+              sup th
             h3
-              | Conference: Friday, April 13, 2018
+              | Conference: Friday, April 13
               sup th
             h3
               span.kapow
@@ -32,10 +33,10 @@ html(lang='en')
         nav
           .container
             ul.row
-              li.col-md-2
-                a(href="#schedule") Schedule
-              li.col-md-2
-                a(href="#other") Other Events
+              //li.col-md-2
+              //  a(href="#schedule") Schedule
+              //li.col-md-2
+              //  a(href="#other") Other Events
               //li.col-md-1
                 //a(href="#cfp") CFP
               //li.col-md-2
