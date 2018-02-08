@@ -1,4 +1,4 @@
-# BSides OK 2017
+# BSides OK 2018
 
 
 --------------------------------------------------------------------------------
@@ -7,6 +7,8 @@
 
 ## :zap: [BSidesOK 2018](http://bsidesok.com) :zap:
 Our conference is a 2 day community-run event at the [Glenpool Conference Center](http://www.glenpoolconferencecenter.com/) in Glenpool, OK.
+
+The pre-conf training is on Wed-Thur, April 11-12TH. The conference itself is on Fri, April 13TH.
 
 ### :ticket: Tickets
 Tickets will be available after the CFP closes!  
