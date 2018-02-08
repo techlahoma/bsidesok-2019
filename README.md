@@ -5,7 +5,7 @@
 
 
 
-## :zap: [BSidesOK 2016](http://bsidesok.com) :zap:
+## :zap: [BSidesOK 2018](http://bsidesok.com) :zap:
 Our conference is a 2 day community-run event at the [Glenpool Conference Center](http://www.glenpoolconferencecenter.com/) in Glenpool, OK.
 
 ### :ticket: Tickets
@@ -40,4 +40,6 @@ Many thanks to organizers and volunteers: Nathan Sweaney, Nathan Keltner, John R
 
 We hope to see you there!
 
-[B-sides site](http://techlahoma.github.io/bsidesok-2017)
+[B-sides site](http://techlahoma.github.io/bsidesok-2018)
+
+Much love from the BSides Oklahoma team!
