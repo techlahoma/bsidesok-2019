@@ -18,7 +18,7 @@ Stay Tuned for announcements.
 Tickets include food/snacks/non-alcoholic drinks at lunch time snack break and at the optional after party. (After party attendance is completely optional and not required.)
 
 ### :sparkling_heart: Help us make BSidesOK Amazing!
-Interested in Sponsoring BSidesOK? Check out the [Sponsorship Prospectus](files/BSidesOKSponsorshipProspectus2016.pdf). If you have any questions, please feel free to contact us via [email](mailto:bsidesok@gmail.com) or @BSidesOK on twitter.
+Interested in Sponsoring BSidesOK? Check out the [Sponsorship Prospectus](files/BSidesOK_Sponsorship_Kit_2018.pdf). If you have any questions, please feel free to contact us via [email](mailto:volunteers@bsidesok.com) or @BSidesOK on twitter.
 
 ### :globe_with_meridians: Location
 Located at the Glenpool Conference Center in Glenpool, OK (southwest of Tulsa).
@@ -35,13 +35,14 @@ Our Code of Conduct (anti-harassment policy) is located at [here](http://bit.ly/
 ### :email: Contact Us!
 [Twitter - @BSidesOK](https://twitter.com/BSidesOK)
 
-[bsidesok@gmail.com](mailto:bsidesok@gmail.com)
+[volunteers@bsidesok.com](mailto:volunteers@bsidesok.com)
 
 #### :tada: Organizers
 Many thanks to organizers and volunteers: Nathan Sweaney, Nathan Keltner, John Robertson, Carrie Randolph, Aaron Moss, James Lawlz, Devon Greene, and Danny LC
 
 We hope to see you there!
 
-[B-sides site](http://techlahoma.github.io/bsidesok-2018)
+[BSides site](https://bsidesok.com)
 
 Much love from the BSides Oklahoma team!
+
