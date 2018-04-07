@@ -24,7 +24,7 @@ html, body
   //background: url("../images/test-grid.png")
 // Typography
 h1, h2, h3, h4
-  margin: 0 0 20px
+  margin: 0 0 0
   @media only screen and (max-width: $break-small)
     margin-bottom: 10px
 h2
@@ -276,6 +276,7 @@ header
     text-align: center
     .other-schedule-time
       font-size: 12px
+      font-weight: bold
       line-height: 1em
       padding: 5px 10px
       text-align: center
@@ -289,6 +290,7 @@ header
     .other-schedule-event
       @extend .clearfix
       clear: both
+      border: 1px solid $creme
       padding: 10px
       background: mix(white, $background)
       text-align: center
@@ -333,7 +335,6 @@ header
             font-size: 15px
 
     .other-schedule-talk
-      border-left: 5px solid $creme
       padding: 0px 10px 15px 10px
       transition: all $hoverReactSpeed ease
       &.other-schedule-day1
