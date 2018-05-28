@@ -3,7 +3,7 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: BSidesOK 2018
+title: BSidesOK 2019
 subtitle: Security Conference
 description:
 author: Nathan Sweaney
@@ -93,6 +93,6 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:techlahoma/bsidesok-2018.git
+  repo: git@github.com:techlahoma/bsidesok-2019.git
   branch: gh-pages
   ignore_errors: true
