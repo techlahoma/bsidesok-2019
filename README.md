@@ -46,3 +46,18 @@ We hope to see you there!
 
 Much love from the BSides Oklahoma team!
 
+
+### Using this site ###
+
+Currently a lot of this site is built from templates and generating HTML source code via Hexo.  Requirements:
+
+Hexo
+Moar...
+
+For Hexo to work right, make sure the _config.yml has the setting you need to deploy correctly.
+
+Commands to run to build site
+<!-- Go to the root folder of the site, before starting. -->
+<!-- Make sure you are starting fresh -->
+hexo clean
+hexo generate
